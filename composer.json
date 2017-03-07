@@ -1,0 +1,17 @@
+{
+  "name": "dijkma/piholeblockpage",
+  "description": "Costum blockpage for pihole",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jelle Dijkhuizen",
+      "email": "jelle@dijkma.nl"
+    }
+  ],
+  "require": {
+    "philo/laravel-blade": "3.*",
+    "nesbot/carbon": "^1.22",
+    "vlucas/phpdotenv": "^2.4"
+  }
+}
