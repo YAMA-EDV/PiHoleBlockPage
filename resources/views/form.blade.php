@@ -21,6 +21,8 @@
                     </div>
 
                     <div class ="form-group">
+                        <label>{{$lang['form_response']}}</label>
+                        <input type="text" class="form-control" id="frmResone" placeholder="{{ $lang['form_response_msg'] }}" data-error="{{ $lang['form_response_error'] }}"
                     </div>
                     <button class="btn btn-default create">{{ $lang['form_btn_send'] }}</button>
                 </form>

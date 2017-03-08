@@ -8,9 +8,9 @@ return [
     'ask_whitelist'     => 'Als u deze website nodig heeft voor dagelijks gebruik, klik dan op "Vraag whitelist aan" om een uitzondering aan te vragen.',
     'blocked_list'      => 'Deze pagina is geblockeerd omdat hij op één van de volgende lijsten staat:',
     'button_back'       => 'Terug naar vorige pagina',
-    'button_whitelist'  => 'Vraag whitelist aan',
-    'button_close'      => 'Venster sluiten',
-    'footer_tekst'      => 'PiHole versie '. $piHoleVersion .' Gegenereed op ' . $time,
+    'button_whitelist'  => ' whitelist',
+    'button_close'      => 'Close windows',
+    'footer_tekst'      => 'PiHole version '. $piHoleVersion .' Gegenereed op ' . $time,
 
     /** Below are the lines for the form. */
 
@@ -21,9 +21,9 @@ return [
     'form_email'        => 'E-mail:',
     'form_email_msg'    => 'Uw mail adress:',
     'form_email_error'  => 'Vul een geldig emailadress in',
-    'form_resone'       => 'De reden van deze aanvraag',
+    'form_reason'       => 'Rede',
+    'form_reason_msg'   => 'De rede van deze aanvraag',
+    'form_reason_error' => 'Er is iets fout in de aanvraag probee rhet opnieuw',
     'form_btn_send'     => 'Whitelist aanvraag versturen',
     'form_close'        => 'Sluiten',
-    ''                  => '',
-    ''                  => '',
 ];

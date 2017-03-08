@@ -53,7 +53,6 @@ $lang = include $_ENV['LANG'].'/'.$local.'.php';
 $varArray = [
     'local'         => $local,
     'lang'          => $lang,
-    'public'        => $_ENV['PUBLIC'],
     'uri'           => $uri,
     'serverName'    => $serverName,
     'uriExt'        => $uriExt,
